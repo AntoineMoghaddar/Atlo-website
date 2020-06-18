@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ATLO Website Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!----NAVBAR---->
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top"> <!-- added fixed-top for navbar collapse-->
+        <a class="navbar-brand" href="#"><img src="img/atlologo.png"></a>
+        <button class="navbar-toggler navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#top">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#external">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#documentation">Archive</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+<!----BANNER SECTION/above wave---->
+<section id="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <p class="project-title">Acknowledge The Little Ones</p>
+                <p>paste short description of project</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="img/WebLogoAtlo.png" class="img-fluid" style="width: 80%">
+            </div>
+        </div>
+    </div>
+    <img src="img/wave.png" class="bottom-img">
+</section>
+
+<!----EXTERNAL---->
+<section id="external">
+    <div class="container text-center">
+        <h1 class="title">MEDIA</h1>
+        <div class="row text-center">
+            <div class="col-sm-4 external">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/I4Q3YDezqcM"
+                            allow="encrypted-media"
+                            allowfullscreen></iframe>
+                </div>
+                <h4>Behind the Scenes</h4>
+                <p>Take a look behind the scenes where we show the development process of the project</p>
+            </div>
+            <div class="col-sm-4 external">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ndsaoMFz9J4"
+                            allow="encrypted-media" allowfullscreen></iframe>
+                </div>
+                <h4>demo</h4>
+                <p>Watch a quick demo of the project</p>
+            </div>
+            <div class="col-sm-4 external">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MujRLvZ61jE"
+                            allow="encrypted-media" allowfullscreen></iframe>
+                </div>
+                <h4>Live stream</h4>
+                <p>Watch back the live stream showcasing a live demo of the product</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----DOCUMENTATION---->
+<section id="documentation">
+    <div class="container">
+        <h1 class="title text-center">ARCHIVE</h1>
+    </div>
+    <div class="row text-center">
+        <div class="col-sm-4 offset-sm-4">
+            <img src="img/archivevector.png" class="img-fluid external-img" style="width: 250px">
+            <h4>Documentation</h4>
+            <p>The documentation is published so that you can gain a better insight into the creation
+                process of the project.</p>
+            <form action="https://drive.google.com/drive/folders/1wvAVVotw6IryyAbGYQ57cR4tKszpWwBM?usp=sharing"
+                  method="get" target="_blank">
+                <button type="submit" class="btn btn-primary">View</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!----CONTACT---->
+<section id="contact">
+    <img src="img/wavetop.png" class="bottom-img">
+    <div class="container">
+        <h1 class="contacttitle text-center"><span class="whitecontact">CONTACT</span></h1>
+        <div class="row">
+            <div class="col-sm-4 offset-sm-2 contact text-center">
+                <img src="img/atlologo.png" class="img-fluid external-img" style="width: 150px">
+                <p><b>Final Word</b></p>
+                <p>Thank you for checking out our web page. If you wish to find out more, don't hesitate to get in touch
+                    with us.</p>
+            </div>
+            <div class="col-sm-4 offset-sm-1 contact contactheight upshift">
+                <img src="img/contactspacer.png" class="img-fluid external-img" style="width: 150px">
+                <p><b>GET IN TOUCH</b></p>
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    University of Twente, Enschede, Netherlands</p>
+                <p><i class="fa fa-mobile-phone" aria-hidden="true"></i>
+                    +31 627840234</p>
+                <p class="text-nowrap"><i class="fa fa-envelope" aria-hidden="true"></i>TeletubbieGang@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----NAVBAR SMOOTH COLLAPSE---->
+<script src="navbarcollapse.js"></script>
+<script>
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+    });
+</script>
+
+<!----SMOOTH SCROLL---->
+<script src="smooth-scroll.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 750, //ms to scroll 1000px.
+        speedAsDuration: true
+    });
+</script>
+
+</body>
+</html>
