@@ -17,6 +17,53 @@ body{
   z-index: 10;
 }
 
+.icon-bar:first-of-type
+{
+  margin-top: 0;
+}
+/*hamburger design*/
+.icon-bar {
+  width: 22px;
+  height: 3px;
+  background-color: #F7F2EF;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 4px;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+/*hamburger animation start*/
+.navbar-toggler .top-bar {
+  transform: translateY(2px) rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/*hamburger animation end*/
+
 .navbar
 {
   background-image: linear-gradient(to right, #1f1f1f, #ef1740);
@@ -29,6 +76,7 @@ body{
   padding-left: 12px;
   margin-top: -10px;
 }
+
 .navbar a:hover
 {
   background-color: #1f1f1f;
@@ -45,11 +93,13 @@ body{
   float: right;
   text-align: left;
 }
+/*
 .fa-bars
 {
   color: #F7F2EF;
   font-size: 20px !important;
 }
+*/
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus{
@@ -201,12 +251,12 @@ body{
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
-  }
+}
 @media (max-width: 768px) {
-  
+
 }
 @media (max-width: 576px) {
-  
+
 }
 
 
@@ -244,12 +294,12 @@ figure {
   background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   will-change: transform;
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 
