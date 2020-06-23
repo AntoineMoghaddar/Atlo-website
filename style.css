@@ -238,6 +238,10 @@ html, body{
 {
   margin-top: -35px;
 }
+e-edit
+{
+  transform: translateX(-3px);
+}
 .contact .fa
 {
   margin-right: 8px;
