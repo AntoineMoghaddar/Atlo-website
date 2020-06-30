@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-* {
+*
+{
     margin: 0;
     padding: 0;
 }
 
-html, body {
+html, body{
     font-family: sans-serif;
-    overflow-x: hidden
+    overflow-x:hidden
 }
-
-#nav-bar {
+#nav-bar
+{
     position: sticky;
     top: 0;
     z-index: 10;
 }
 
-.icon-bar:first-of-type {
+.icon-bar:first-of-type
+{
     margin-top: 0;
 }
-
 /*hamburger design*/
 .icon-bar {
     width: 22px;
@@ -61,35 +62,37 @@ html, body {
 .navbar-toggler.collapsed .bottom-bar {
     transform: rotate(0);
 }
-
 /*hamburger animation end*/
 
-.navbar {
+.navbar
+{
     background-image: linear-gradient(to right, #1f1f1f, #ef1740);
     padding: 0 !important;
 }
 
-.navbar-brand img {
+.navbar-brand img
+{
     height: 20px;
     padding-left: 12px;
     margin-top: -10px;
 }
 
-.navbar a:hover {
+.navbar a:hover
+{
     background-color: #1f1f1f;
 }
 
-.navbar-nav li {
+.navbar-nav li
+{
     padding: 0 10px;
 }
-
-.navbar-nav li a {
+.navbar-nav li a
+{
     color: #F7F2EF !important;
     font-weight: 600;
     float: right;
     text-align: left;
 }
-
 /*
 .fa-bars
 {
@@ -99,51 +102,54 @@ html, body {
 */
 .navbar-toggler:focus,
 .navbar-toggler:active,
-.navbar-toggler-icon:focus {
+.navbar-toggler-icon:focus{
     outline: none;
     box-shadow: none;
 }
-
-.navbar-toggler {
+.navbar-toggler
+{
     border: none !important;
 }
 
 /*-----------------BANNER SECTION-------------------*/
-#banner {
+#banner
+{
     background-image: linear-gradient(to right, #1f1f1f, #ef1740);
     color: #F7F2EF;
     padding-top: 10%;
 }
 
-.project-title {
+.project-title
+{
     font-size: 40px;
     font-weight: 600;
     margin-top: 50px;
 }
-
-.bottom-img {
+.bottom-img
+{
     width: 100%;
 }
 
 /*-----------------MEDIA-------------------*/
 
-#external {
+#external
+{
     padding: 80px 0;
 }
-
-.external-img {
+.external-img
+{
     margin-top: 20px;
 }
-
-.embed-responsive-16by9 {
+.embed-responsive-16by9
+{
     margin-top: 20px;
 }
-
-.external {
+.external
+{
     padding: 20px;
 }
-
-.external h4 {
+.external h4
+{
     padding: 5px;
     margin-top: 10px;
     text-transform: uppercase;
@@ -161,7 +167,8 @@ html, body {
   display: block;
 }
 */
-.title::after {
+.title::after
+{
     content: '';
     background: #ef1740;
     height: 5px;
@@ -171,16 +178,17 @@ html, body {
     display: block;
     transform: translateY(6px);
 }
-
 /*-----------------ARCHIVE-------------------*/
 
-#documentation {
+#documentation
+{
     background: #FAFAFA;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
-#documentation .btn-primary {
+#documentation .btn-primary
+{
     box-shadow: none;
     padding: 8px 25px;
     border: none;
@@ -189,21 +197,25 @@ html, body {
 }
 
 /*-----------------CONTACT-------------------*/
-#contact {
+#contact
+{
     background: #ef1740;
     padding-bottom: 50px;
 }
 
-.whitecontact {
+.whitecontact
+{
     color: #FAFAFA !important;
 }
 
-.contact h4, .contact p {
+.contact h4, .contact p
+{
     color: #FAFAFA !important;
     margin: 0px;
 }
 
-.contacttitle::after {
+.contacttitle::after
+{
     content: '';
     background: #1f1f1f !important;
     height: 5px;
@@ -214,23 +226,24 @@ html, body {
     transform: translateY(6px);
 }
 
-.contact {
+.contact
+{
     padding: 20px;
 }
-
-.contactheight {
+.contactheight
+{
     line-height: 30px;
 }
-
-.upshift {
+.upshift
+{
     margin-top: -35px;
 }
-
-.e-edit {
+.e-edit
+{
     transform: translateX(-3px);
 }
-
-.contact .fa {
+.contact .fa
+{
     margin-right: 8px;
     font-size: 25px;
     height: 20px;
@@ -238,16 +251,13 @@ html, body {
     text-align: center;
     padding-top: 5px;
 }
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
 }
-
 @media (max-width: 768px) {
 
 }
-
 @media (max-width: 576px) {
 
 }
@@ -261,15 +271,13 @@ html, body {
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
 }
-
 /*--- Fixed Background Image example--*/
 figure {
     position: relative;
     width: 100%;
     height: 60%;
-    margin: 0 !important;
+    margin: 0!important;
 }
-
 .fixed-wrap {
     clip: rect(0, auto, auto, 0);
     position: absolute;
@@ -278,7 +286,6 @@ figure {
     width: 100%;
     height: 100%;
 }
-
 #fixed {
     background-image: url('img/background.png');
     position: fixed;
@@ -293,11 +300,13 @@ figure {
     transform: translateZ(0);
     will-change: transform;
 }
-
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
 }
+
+
+
 
 
 /*
